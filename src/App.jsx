@@ -17,19 +17,19 @@ const router=createBrowserRouter([
     
   },
        {
-        path:'https://makeoverbypriyasingh.onrender.com/services',
+        path:'/services',
     element:<ServicesPage></ServicesPage>,
       },
       {
-        path:'https://makeoverbypriyasingh.onrender.com/about',
+        path:'/about',
     element:<About></About>,
       },
       {
-        path:'https://makeoverbypriyasingh.onrender.com/gallery',
+        path:'/gallery',
     element:<GalleryPage></GalleryPage>,
       },
        {
-        path:'https://makeoverbypriyasingh.onrender.com/book',
+        path:'/book',
     element:<Book></Book>,
     action:Booking,
       },
