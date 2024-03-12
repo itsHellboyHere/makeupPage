@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <section className={`py-20 ${isDarkTheme ? 'bg-gray-800' : 'bg-Fuchsia-100'}`}>
-      <div className='mx-auto max-w-7xl px-8 grid md:grid-cols-2 md:items-center gap-16'>
+      <div className='mx-auto max-w-screen   grid md:grid-cols-2 md:items-center gap-10'>
         <img src={aboutSvg} className='w-full h-full rounded-xl' alt="About" />
 
         <article
