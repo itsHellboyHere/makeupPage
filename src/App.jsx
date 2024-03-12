@@ -1,4 +1,4 @@
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter,  HashRouter as Router,createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { action as Booking } from './pages/Book';
 import{
 About,Home,Book,ServicesPage,GalleryPage,LandingPage,Error
