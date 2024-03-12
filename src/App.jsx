@@ -1,4 +1,4 @@
-import { BrowserRouter,  HashRouter as Router,createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter,createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { action as Booking } from './pages/Book';
 import{
 About,Home,Book,ServicesPage,GalleryPage,LandingPage,Error
@@ -17,19 +17,19 @@ const router=createBrowserRouter([
     
   },
        {
-        path:'/services',
+        path:'https://makeoverbypriyasingh.onrender.com/services',
     element:<ServicesPage></ServicesPage>,
       },
       {
-        path:'/about',
+        path:'https://makeoverbypriyasingh.onrender.com/about',
     element:<About></About>,
       },
       {
-        path:'/gallery',
+        path:'https://makeoverbypriyasingh.onrender.com/gallery',
     element:<GalleryPage></GalleryPage>,
       },
        {
-        path:'/book',
+        path:'https://makeoverbypriyasingh.onrender.com/book',
     element:<Book></Book>,
     action:Booking,
       },
