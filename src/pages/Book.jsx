@@ -2,7 +2,7 @@ import SectionTitle from "../Components/SectionTitle"
 import { Form, redirect ,useNavigation} from 'react-router-dom';
 import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
-import formimg  from '../Assets/form.svg';
+// import formimg  from '../Assets/form.svg';
 import { useGlobalContext } from "../DarkModeContext";
 
 const submitUrl = 'https://bookingmail-asu6.onrender.com/send';
@@ -44,9 +44,7 @@ const Book = () => {
       </div>
     <Form className={`max-w-md mx-auto    rounded-md shadow-md`} method="POST">
        
-        <article className=' md:block'>
-          <img src={formimg} className='h-32' />
-        </article>
+        
     
       <SectionTitle text='Fill Details'></SectionTitle>
       {/* name */}
