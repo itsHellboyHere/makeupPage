@@ -132,7 +132,7 @@ const Book = () => {
       </div>
       <div class="form-group">
                 <label htmlFor="description" className="block text-sm font-medium text-gray-600">Description :</label>
-      <textarea class="mt-1 p-2 w-full border rounded-md text-black" id="description" name="description" rows="2" placeholder="For Multiple Booking Please Write it here..." minlength="1" maxlength="100"></textarea>
+      <textarea className="mt-1 p-2 w-full border rounded-md text-black" id="description" name="description" rows="2" placeholder="For Multiple Booking Please Write it here..." ></textarea>
               </div>
       <button
         type="submit"
