@@ -23,7 +23,7 @@ const NavBar = () => {
 
   // Dynamic classes based on dark mode state
   const navbarClasses = `bg-${isDarkTheme ? 'gray-800 border-b border-white ' : 'emerald-200 border-b border-black'} ${
-    isScrolled ? 'fixed top-0 left-0 right-0 shadow-md ' : `bg-${isDarkTheme ? 'gray-800 border-b border-white ' : 'emerald-200 border-b border-black'}`
+    isScrolled ? 'fixed top-0 left-0 right-0 shadow-md z-10 ' : `bg-${isDarkTheme ? 'gray-800 border-b border-white ' : 'emerald-200 border-b border-black'}`
   }`;
 //   const navbarClasses = `bg-emerald-100 border-b border-${isDarkTheme ? 'white bg-gray-800' : 'black'} ${
 //   isScrolled ? 'fixed top-0 left-0 right-0 shadow-md' : ''
